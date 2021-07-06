@@ -1,0 +1,262 @@
+body {
+    color: #1d2731;
+    font-family: Alegreya,serif;
+    font-size: 16px;
+}
+img {
+    max-width: 100%;
+}
+a {
+    background-color: transparent;
+}
+.site-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+.site-header .top-row {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding:0;
+}
+.title{
+    justify-content: space-around;
+    float: left;
+}
+.title-name{
+    display: block;
+    margin: 0 auto;
+    max-width: 480px;
+}
+.top-导航{
+    float: left;
+    width: 50%;
+    border-color: #e0e5e5;
+    border-style: solid;
+    border-width: 0px 0;
+    height: 22px;
+    padding: 8px 0;
+}
+.text1-top{
+    justify-content: space-around;
+    line-height: 22px;
+}
+.text1-top-导航-ul{
+    float: right;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 41px;
+}
+.text1-top-导航-ul-n{
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+    list-style: none;
+    padding: 0px 17px;
+}
+.text1-top-导航-ul-n a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #000; ;
+    text-align: center;
+    text-decoration: none;
+    line-height: 41px;
+}
+.life-contain{
+    padding: 10px;
+    margin-top: 100px;
+    height: 2000px;
+    width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.life-contain-list{
+    margin: 0;
+    margin-left: 24px;
+    float: left;
+    width: 240px;
+    
+}
+.life-contain-main{
+    border: 1px solid #ededed;
+    float: left;
+    width: 1064px;
+}
+.recent-part1{
+    border: 1px solid #ededed;
+    padding: 24px;
+    padding-top: 0;
+    margin-bottom: 24px;
+}
+.recent-part1 ul{
+    padding: 0;
+    list-style: none;
+}
+.widget-title {
+    font-size: 18px;
+    font-weight: normal;
+    color: #21759b;
+    border-bottom: 1px solid #ededed;
+    margin-top: 15px;
+}
+.life-name{
+    border-bottom: 2px solid #b8bdbd;
+}
+.life-name p{
+    margin-top:14px;
+    margin-bottom: 0;
+    font-size:26px;
+    font-weight: 600;
+}
+.life-mune-table{
+    margin-bottom: 20px;
+}
+.life-mune-table ul{
+    padding: 0;
+    padding-bottom: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+    list-style:none;
+}
+.life-mune-table ul li{
+    float: left;
+    color: #7a7a7a;
+    width: 60px;
+    padding: 4px 14px 4px 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.life-con{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 1440px;
+    width: 90%;
+    min-height: 400px;
+}
+.line-1{
+    width: 1005px;
+    margin: 60px auto;
+    height: 360px;
+}
+.life-travel-museum{
+    float: left;
+    background-color: #f2f5f5;
+    border: 1px solid #d3dbdb;
+    width: 625px;
+    color: #1d2731;
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+}
+.life-travel-museum-picture{
+    height: 200px;
+    width: 620px;
+}
+.life-travel-museum-picture-img{
+    float: left;
+    display: block;
+    margin: 10px;
+    max-height: 180px;
+    max-width: 180px;
+}
+.life-travel-museum-2{
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #d3dbdb;
+    width: 180px;
+    color: #1d2731;
+    padding: 1rem;
+    text-align: center;
+    height: 320px;
+}
+.life-travel-museum-picture-2{
+    height: 180px;
+    max-width: 136px;
+}
+.life-travel-museum-3{
+    float: left;
+    border: 1px solid #d3dbdb;
+    background-color: #f2f5f5;
+    width: 180px;
+    color: #1d2731;
+    height: 320px;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+}
+.life-travel-museum-picture-img-2{
+    float: left;
+    display: block;
+    margin: 10px;
+    max-height: 220px;
+    max-width: 180px;
+}
+.life-travel-museum-picture-dingwei{
+    width: 185px;
+    height: 240px;
+    margin: auto;
+}
+.life-travel-museum-contain-title{
+    font-weight: bold;
+}
+.life-travel-4{
+    float: left;
+    border: 1px solid #d3dbdb;
+    background-color: #f2f5f5;
+    width: 330px;
+    color: #1d2731;
+    height: 320px;
+    padding: 1rem;
+    margin: auto;
+    margin-left: 30px;
+    text-align: center;
+}
+.life-travel-picture-dingwei-4{
+    width: 320px;
+    height: 200px;
+    margin: auto;
+}
+.life-travel-picture-img-4{
+    float: left;
+    display: block;
+    margin: 10px;
+    max-height: 220px;
+    max-width: 300px;
+}
+.life-travel-picture-dingwei-5{
+    width: 320px;
+    height: 210px;
+    margin: auto;
+    margin-top: 10px;
+}
+.h2{
+    font-weight: bold;
+}
+.site-footer{
+    background-color: #ebeeee;
+    min-height: 80px;
+}
+.site-footer-pic-1{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-footer p{
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.site-footer img{
+    width: 620px;
+}

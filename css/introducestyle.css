@@ -1,0 +1,203 @@
+body {
+    color: #1d2731;
+    flex-direction: column;
+    font-family: Alegreya,serif;
+    font-size: 16px;
+    justify-content: stretch;
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+a {
+    background-color: transparent;
+}
+.site-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+.site-header .top-row {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    float: left;
+    width: 50%;
+    padding:0;
+}
+.title{
+    justify-content: space-around;
+    float: left;
+}
+.title-name{
+    display: block;
+    margin: 0 auto;
+    max-width: 480px;
+}
+.top-导航{
+    float: left;
+    width: 50%;
+    border-color: #e0e5e5;
+    border-style: solid;
+    border-width: 0px 0;
+    height: 22px;
+    padding: 8px 0;
+}
+.text1-top{
+    justify-content: space-around;
+    line-height: 22px;
+}
+.text1-top-导航-ul{
+    float: right;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 41px;
+}
+.text1-top-导航-ul-n{
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+    list-style: none;
+    padding: 0px 17px;
+}
+.text1-top-导航-ul-n a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #000; ;
+    text-align: center;
+    text-decoration: none;
+    line-height: 41px;
+}
+#introduce-part{
+    background: url(../images/边框-3.png) no-repeat;
+    background-size: 950px 1420px;
+    height: 1600px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+.introduce-picture{
+    width: 190px;
+    height: 262px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 215px;
+}
+.introduce-contain{
+    margin-left: 20px;
+    margin-top: 215px;
+    float: left;
+    
+}
+.introduce-table-con{
+    width:500px;
+    border:0 ;
+    border-spacing: 0;
+    background: #f2f5f5
+    
+}
+.table strong{
+    line-height: 2.0;
+    font-family: SimSun;
+    font-size: 14px;
+    color: #555;
+    padding: 2px 10px;
+}
+.tdd{
+    height:32px ;
+    border-collapse: 3;
+    border-width: 0px 1px 1px 0px;
+    column-span:3px;
+}
+.tdd h1{
+    line-height: 2.0;
+    font-family: SimSun;
+    font-size: 30px;
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding:0px;
+}
+.td{
+    width:33% ;
+    height:32;
+    border: solid rgb(70, 66, 66);
+    border-width: 0px 0px 1px 0px;
+    padding: 2px 10px;
+}
+.td a{
+    text-decoration: none;
+    color: #5A5A5A;
+    line-height: 2.0;
+    font-size: 18px;
+    font-family: SimSun;
+}
+.td a:hover{
+    color:rgb(202, 105, 124);
+}
+.introduce-contain-detail{
+    width: 771px;
+    height: 400px;
+    float: left;
+    margin: 0px auto;
+    padding-left: 145px;
+    padding-right: 20px;
+}
+.introduce-contain-detail p{/*详细个人介绍的字体颜色与行距*/
+    color: #555;/*字体颜色*/
+    line-height: 2.0;/*行距*/
+}
+.introduce-contain-detail-title{/*详细个人介绍的“教育经历”大标题格式*/
+    font-family: SimSun;/*字体*/
+    font-size: 24px;/*字大小*/
+    font-weight: bold;/*加粗*/
+    background: #f2f5f5;/*背景颜色*/
+    width: 715px;
+    float: left;
+    margin: 0;
+}
+.introduce-contain-detail-time{/*详细个人介绍的时间格式*/
+    font-weight: bold;/*加粗*/
+    background: #f2f5f5; /*背景颜色*/
+    width: 715px;
+    float: left;
+    margin: 0;
+}
+.introduce-contain-detail-majoy{/*详细个人介绍的专业格式*/
+    font-weight: bold;/*加粗*/
+    background: #f2f5f5;/*背景颜色*/
+    width: 715px;
+    float: left;
+    margin: 0;
+}
+.introduce-contain-detail-contain{/*详细个人介绍的正文格式*/
+    font-family: SimSun; /*字体*/
+    background: #f2f5f5;/*背景颜色*/
+    width: 715px;
+    float: left;
+    margin: 0;
+}
+.site-footer{
+    background-color: #ebeeee;
+    min-height: 80px;
+}
+.site-footer-pic-1{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-footer p{
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
+.site-footer img{
+    width: 620px;
+}

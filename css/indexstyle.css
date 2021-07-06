@@ -1,0 +1,187 @@
+body {
+    color: #1d2731;
+    flex-direction: column;
+    font-family: Alegreya,serif;
+    font-size: 16px;
+    justify-content: stretch;
+    
+}
+.__gatsby{
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+img {
+    max-width: 100%;
+}
+a {
+    background-color: transparent;
+}
+.site-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+.site-header .top-row {
+    margin-top: 200px;
+    height: auto;
+    grid-template-columns: 60px 1fr 60px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 29px 0;
+}
+.small-picture{
+    background-color: transparent;
+    border-width: 0;
+    cursor: pointer;
+    display: block;
+    height: 36px;
+    width: 36px;
+}
+.title{
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.title-name{
+    display: block;
+    margin: 0 auto;
+    max-width: 640px;
+}
+.top-导航{
+    border-color: #e0e5e5;
+    border-style: solid;
+    border-width: 1px 0;
+    
+    padding: .5rem 0;
+}
+.text1-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text1-top-导航-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.text1-top-导航-ul-n{
+    float: left;
+    position: relative;
+    vertical-align: bottom;
+    list-style: none;
+    padding: 0px 25px;
+}
+.text1-top-导航-ul-n a{
+    transition: all .3s ease;
+    color: #1d2731;
+    text-decoration-color: transparent;
+    text-decoration-line: underline;
+}
+.sitewide-banner {
+    border-top: 2px solid #d9b310;
+    border-bottom: 2px solid #d9b310;
+    background-color: #f2f5f5;
+    margin: 2rem 0 4rem;
+    margin-top: 280px;
+}
+.sitewide-banner a {
+    transition: all .3s ease;
+    background-color: #f2f5f5;
+    color: #1d2731;
+    display: block;
+    text-decoration: none;
+}
+.sitewide-banner a span {
+    display: block;
+}
+.contents {
+    align-items: center;
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding: 1rem;
+    text-align: center;
+}
+.narrow-page-width {
+    margin: 0 auto;
+    max-width: 978px;
+    width: 66.667%;
+}
+.left-side{
+    float: left;
+}
+.right-side{
+    float: right;
+}
+.details{
+    margin: 40 ;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sitewide-banner a span.headline {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.sitewide-banner a span.subhead {
+    font-size: 1.2rem;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.sitewide-banner a span.footer {
+    line-height: 140%;
+    margin-bottom: 13px;
+}
+.depart-1{
+    border-color: #e0e5e5;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    padding: .5rem 0;
+    text-align: center;
+}
+.post a{
+    color: rgba(0, 0, 0, 0.98);
+    text-decoration: none;
+    -webkit-transition: 0.3s color;
+    transition: 0.3s color;
+   
+}
+.post-title {
+    font-size: 28px;
+    text-align: center;
+    padding: 24px 0 12px;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+    text-align: center;
+    font-family: 'Noto Serif SC','Source Han Serif SC','Source Han Serif',source-han-serif-sc,'PT Serif','SongTi SC','MicroSoft Yahei',Georgia,serif;
+    line-height: 1.42;
+}
+.site-footer{
+    background-color: #ebeeee;
+    min-height: 80px;
+}
+.site-footer-pic-1{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.site-footer p{
+    padding-top: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    text-align: center;
+}
+.site-footer img{
+    width: 520px;
+}
