@@ -144,11 +144,14 @@ a {
     margin-bottom: 13px;
 }
 .depart-1{
-    border-color: #e0e5e5;
-    border-style: solid;
     border-width: 0 0 1px 0;
     padding: .5rem 0;
     text-align: center;
+}
+.post-container{
+    background: url(../images/边框-4.png) no-repeat;
+    background-position-x: center;
+    background-size: 850px 430px;
 }
 .post a{
     color: rgba(0, 0, 0, 0.98);
@@ -184,4 +187,67 @@ a {
 }
 .site-footer img{
     width: 520px;
+}
+
+.life-con{
+    border-top: 1px solid #d9b310;
+    border-bottom: 1px solid #d9b310;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    width: 1440px;
+    width: 90%;
+    min-height: 400px;
+}
+
+.line-1{
+    width: 1005px;
+    margin: 60px auto;
+    height: 360px;
+}
+
+.life-travel-museum-3{
+    float: left;
+    border: 1px solid #d3dbdb;
+    background-color: #f2f5f5;
+    width: 180px;
+    color: #1d2731;
+    height: 320px;
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+}
+.life-travel-museum-picture-img-2{
+    float: left;
+    display: block;
+    margin: 10px;
+    max-height: 220px;
+    max-width: 180px;
+}
+.life-travel-museum-picture-dingwei{
+    width: 185px;
+    height: 240px;
+    margin: auto;
+}
+.life-travel-museum-contain-title{
+    font-weight: bold;
+}
+.life-travel-4{
+    float: left;
+    border: 1px solid #d3dbdb;
+    background-color: #f2f5f5;
+    width: 330px;
+    color: #1d2731;
+    height: 320px;
+    padding: 1rem;
+    margin: auto;
+    margin-left: 30px;
+    text-align: center;
+}
+.life-travel-picture-dingwei-4{
+    width: 320px;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: auto;
 }
